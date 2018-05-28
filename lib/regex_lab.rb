@@ -12,7 +12,7 @@ end
 def words_five_letters_long(text)
   array = text.scan(/\b\w{5}\b/)
   array
-  
+
 
 end
 
@@ -26,5 +26,6 @@ def valid_phone_number?(phone)
     true
   else
     false
+  end
 
 end
