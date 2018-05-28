@@ -1,5 +1,5 @@
 def starts_with_a_vowel?(word)
-  array = word.scan(/\b[aeiou]\w*/)
+  array = word.scan(/\b[aeiou]\w*/i)
   array.length == 0 ? false : true
 
 
@@ -32,7 +32,7 @@ def valid_phone_number?(phone)
 end
 
 text = "Iceskating!"
-word = "iceskatingi"
+word = "afoot Excellent incredible Absolute unreal Inconceivable octopus"
 
 first_word_capitalized_and_ends_with_punctuation?("Iceskating!")
 first_word_capitalized_and_ends_with_punctuation?("iceskating")
