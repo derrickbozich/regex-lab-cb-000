@@ -35,3 +35,6 @@ end
 
 text = "Iceskating!"
 text = "iceskatingi"
+
+first_word_capitalized_and_ends_with_punctuation?("Iceskating!")
+first_word_capitalized_and_ends_with_punctuation?("iceskating")
