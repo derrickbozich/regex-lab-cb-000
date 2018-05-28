@@ -32,7 +32,7 @@ def valid_phone_number?(phone)
 end
 
 text = "Iceskating!"
-word = "afoot Excellent incredible Absolute unreal Inconceivable octopus"
+text = "I stepped on a Corn Flake, now I'm a cereal killer."
 
 first_word_capitalized_and_ends_with_punctuation?("Iceskating!")
 first_word_capitalized_and_ends_with_punctuation?("iceskating")
