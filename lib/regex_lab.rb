@@ -17,7 +17,8 @@ def words_five_letters_long(text)
 end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
-   text.scan(/[A-Z]\w*[?.!]/) ? true : false
+   array = text.scan(/[A-Z]\w*[?.!]/)
+   array.length > 0 ? true : false
 
 
 
@@ -33,3 +34,4 @@ def valid_phone_number?(phone)
 end
 
 text = "Iceskating!"
+text = "iceskatingi"
